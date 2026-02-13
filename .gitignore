@@ -1,0 +1,26 @@
+# Obsidian 配置目录
+.obsidian/
+
+# Smart Environment 插件数据
+.smart-env/
+
+# Claude 配置
+.claude/
+
+.vscode/
+
+.rufus/
+.DS_Store
+Thumbs.db
+*.log
+.mypycache
+._*
+._.*
+._.DS_Store/
+.DS_Store/
+.mypy_cache/
+.obsidian/
+.ruff_cache/
+.trash/
+.vscode/
+./._.DS_Store
