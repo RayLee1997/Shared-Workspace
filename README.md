@@ -99,3 +99,40 @@
 ---
 
 > *Updated: 2026-02*
+
+---
+
+## 6. Agent 能力地图 (Agent Capabilities)
+
+本工作区集成了强大的 AI Agent 能力，位于 `.agent` 目录下。
+
+### 🛠️ 核心技能 (Skills)
+
+技能是 Agent 的“超能力”，通常由自然语言触发（如“帮我分析一下...”）。
+
+| 技能名称 | 目录 | 触发场景 | 功能描述 |
+| :--- | :--- | :--- | :--- |
+| **us-stock-analysis** | `skills/us-stock-analysis` | “分析 NVDA”、“解读财报” | **[旗舰技能]** 整合 SEC 财报、电话会议纪要与 Yahoo Finance 行情，生成机构级深度研报。 |
+| **fred-data** | `skills/fred-data` | “查一下美国通胀”、“宏观分析” | 连接美联储 (FRED) 数据库，查询利率、CPI、就业等 84万+ 宏观经济指标。 |
+| **web-research** | `skills/web-research` | “搜索最新...”| 基于 Brave Search 的深度联网检索，支持多源交叉验证与事实核查。 |
+| **mermaid-chart** | `skills/mermaid-chart` | “画个图”、“可视化” | 生成符合 **Healing Dream** 风格的专业图表（折线/柱状/饼图/桑基图）。 |
+| **gmail-mcp** | `skills/gmail-mcp` | “发送邮件” | 通过 Gmail API 发送带附件的邮件，支持从本地工作目录提取文件。 |
+
+### 🔄 常用工作流 (Workflows)
+
+工作流是标准化的操作程序，通常由 **Slash Command** (`/`) 触发。
+
+| 指令 | 对应文件 | 用途 |
+| :--- | :--- | :--- |
+| **`/notion-push`** | `workflows/notion-push.md` | **[核心]** 将当前 Markdown 笔记智能同步到 Notion 数据库，支持大文件自动分块。 |
+| **`/yfinance`** | `workflows/yfinance.md` | 快速调用 Yahoo Finance 工具进行个股数据查询（行情/财务/持仓/评级）。 |
+| **`/create-moc`** | `workflows/create-moc.md` | 全盘扫描工作区，在 `09_MOC` 目录下生成最新的知识索引图谱 (Map of Content)。 |
+| **`/create-tech-tutorial`** | `workflows/create-tech-tutorial.md` | 结构化生成技术教程，包含环境配置、实战案例与最佳实践。 |
+| **`/git-push`** | `workflows/git-push.md` | 自动化 Git 流程：Status → Add All → Commit (Auto Message) → Push。 |
+| **`/init`** | `workflows/init.md` | 初始化工作区上下文，根据现有内容生成 `GEMINI.md` 规范文件。 |
+
+### 📜 行为准则 (Rules)
+
+位于 `rules/` 目录，定义了 Agent 的基础行为模式。
+
+* **report-rules.md**: 强制执行 **双语写作原则**（中文叙述 + 英文术语），确保专业性与准确性。
