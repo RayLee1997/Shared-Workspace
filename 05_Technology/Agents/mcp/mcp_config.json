@@ -1,0 +1,44 @@
+{
+    "mcpServers": {
+        "brave-search": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@brave/brave-search-mcp-server"
+            ],
+            "env": {
+                "BRAVE_API_KEY": "your api key"
+            },
+            "disabled": false
+        },
+        "edgartools": {
+            "command": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+            "args": [
+                "-m",
+                "edgar.ai"
+            ],
+            "env": {
+                "EDGAR_IDENTITY": "your email address xxx@gmail.com"
+            },
+            "disabled": false
+        },
+        "yfinance": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/Users/ray/Softwares/yahoo-finance-mcp",
+                "run",
+                "server.py"
+            ]
+        },
+        "fred-mcp-server": {
+            "command": "/opt/homebrew/bin/node",
+            "args": [
+                "/Users/ray/Softwares/fred-mcp-server/build/index.js"
+            ],
+            "env": {
+                "FRED_API_KEY": "your api key"
+            }
+        }
+    }
+}

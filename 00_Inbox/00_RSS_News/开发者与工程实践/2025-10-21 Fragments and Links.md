@@ -1,0 +1,46 @@
+# Fragments and Links
+
+**Author:** 
+**Published:** 2025-10-21T15:02:00.000Z
+**Link:** https://martinfowler.com/articles/20251021-frags.html
+**GUID:** 
+**Tags:** 
+
+---
+
+## Summary
+
+Mathias Verraes writes about the relationship between Domains and Bounded Contexts in Domain-Driven Design. It’s a common myth that there should always be a 1:1 relationship between them, but although it’s sometimes the case, deeper modeling often exposes a more interesting structure.
+Gary Marcus: (NYT Gift Link)
+If the strengths of A.I. are truly to be harnessed, the tech industry should stop focusing so heavily on these one-size-fits-all tools and instead concentrate on narrow, specialized A.I. tools engineered for particular problems. Because, frankly, they’re often more effective.
+One of the truly annoying things about the US tax system is that we can’t easily file our tax returns electronically. In recent years an initiative called “Direct File” sought to fix that. Matt Bracken tells the story of how they developed a highly-regarded system in 25 states, but was canned by the Trump administration. He also explains how the creators of Direct File are working to prepare the ground for it to reappear.
+Security issues are only getting worse, but the US government agency for cybersecurity is having its staff reassigned to other duties. Detailed story in Bloomberg (paywalled) and an open (but more polemic) summary on Techdirt.
+Changes have hit particularly hard in CISA’s Capacity Building team, which writes emergency directives and oversees cybersecurity for the government’s highest value assets, the employees said.
+Defense and law enforcement are valuable things for a government to do, but here they seem to be walking away from a growing crisis.
+
+---
+
+## Content
+
+<p><strong>Mathias Verraes</strong> writes about the relationship between <a href="https://verraes.net/2025/08/domain-and-bounded-contexts-dont-map-one-on-one/">Domains and Bounded Contexts</a> in Domain-Driven Design. It’s a common myth that there should always be a 1:1 relationship between them, but although it’s sometimes the case, deeper modeling often exposes a more interesting structure.</p>
+
+<p><strong>Gary Marcus:</strong> (<a href="https://www.nytimes.com/2025/10/16/opinion/ai-specialized-potential.html?unlocked_article_code=1.vE8.Rl9N.C2_mHrQ_1hHz&amp;smid=url-share">NYT Gift Link</a>)</p>
+
+<blockquote>
+  <p>If the strengths of A.I. are truly to be harnessed, the tech industry should stop focusing so heavily on these one-size-fits-all tools and instead concentrate on narrow, specialized A.I. tools engineered for particular problems. Because, frankly, they’re often more effective.</p>
+</blockquote>
+
+<p>One of the truly annoying things about the US tax system is that we can’t easily file our tax returns electronically. In recent years an initiative called “Direct File” sought to fix that. <strong>Matt Bracken</strong> <a href="https://fedscoop.com/direct-file-future-of-tax-filing-fellows/">tells the story</a> of how they developed a highly-regarded system in 25 states, but was canned by the Trump administration. He also explains how the creators of Direct File are working to prepare the ground for it to reappear.</p>
+
+<p>Security issues are only getting worse, but the US government agency for cybersecurity is having its staff reassigned to other duties. Detailed story in <a href="https://www.bloomberg.com/news/articles/2025-10-08/homeland-security-cyber-personnel-reassigned-to-jobs-in-trump-s-deportation-push">Bloomberg</a> (paywalled) and an open (but more polemic) summary on <a href="https://www.techdirt.com/2025/10/17/trumps-cisa-raid-pulling-cybersecurity-experts-off-critical-infrastructure-defense-to-process-deportation-paperwork/">Techdirt</a>.</p>
+
+<blockquote>
+  <p>Changes have hit particularly hard in CISA’s Capacity Building team, which writes emergency directives and oversees cybersecurity for the government’s highest value assets, the employees said.</p>
+</blockquote>
+
+<p>Defense and law enforcement are valuable things for a government to do, but here they seem to be walking away from a growing crisis.</p>
+
+
+---
+
+**ISO Date:** 2025-10-21T15:02:00.000Z
