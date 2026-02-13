@@ -1,56 +1,78 @@
-# AGENTS.md
+# Ray's Workspace (Shared)
 
-This file provides context about this Obsidian vault for AI agents.
+欢迎来到 Ray 的核心工作区（Shared Workspace）。
 
-## Vault Overview
+这里是 **第二大脑与投资研究指挥中心**，一个融合了深度投资研究、前沿技术探索与长期知识沉淀的混合型工作环境。本工作区旨在通过结构化的知识管理，将碎片化信息转化为可复用的智慧资产。
 
-This vault is a sophisticated personal knowledge base and engineering workspace for Ray, a technical professional operating at the intersection of AI engineering, cloud infrastructure, and global finance.
+---
 
-It functions as a hybrid environment for managing active software development projects (specifically the **Heimdall** Discord bot, **PersonaPlex** iOS app, and **OpenClaw** hybrid cloud deployment), conducting deep investment research (Microsoft FY2026, Tesla, Meta), and documenting personal intellectual exploration into history, philosophy, and geopolitical investigations (e.g., Myanmar fraud syndicates). The content reflects a high-tech workflow in early 2026, combining practical engineering tasks with macro-economic analysis and creative projects.
+## 1. 核心目标 (Core Objectives)
 
-## Organization
+1. **深度投资研究 (Investment Research)**
+    * 生产达到机构级水准的个股深度分析报告（如 NVDA, TSM, MSFT）。
+    * 基于宏观经济数据的全球策略分析。
+    * 维护动态的关注列表 (Watchlist) 与投资组合计划。
 
-The vault utilizes a numbered folder system (00-99) based on the Johnny Decimal method to separate input, active projects, and reference materials:
+2. **技术与工程 (Engineering & Technology)**
+    * 全栈开发与 AI Agent 系统构建（Heimdall, PersonaPlex, OpenClaw）。
+    * 系统化整理技术栈笔记（Python, FastAPI, Cloudflare）。
+    * 探索与沉淀前沿 AI 工具（Claude Code, Google Antigravity, MCP）。
 
-- **Input & Processing**: `00_Inbox` is the active staging area, currently heavy with early 2026 research on PersonaPlex architecture, NVIDIA GPU evolution, and Anthropic/GCP integration.
-- **Active Domains**: `01_Research` (Heimdall bot), `02_Ideas` (History and personal essays), `03_Productions` (Creative scripts like "The Death of RoC"), and `09_Investigation` (Active deep dives into geopolitical fraud networks).
-- **Resource Domains**: `04_Investments` (FY2026 earnings for MSFT, Tesla, Meta, Blackberry), `05_Technology` (OpenClaw, Gemini Scribe, Web Dev/FastAPI, RAG systems), and `06_Accounts` (Logistics for OCBC, Stripe, and GCP billing).
-- **Exploration & Archives**: `96_Explore` (Keyu Jin, Li Shuo, Gemini 3 Flash) and `97_OpenCode` (Coding agent skills ecosystem). `99_Archives` stores historical references (Liu Zhongjing, Qin Hui).
+3. **知识沉淀 (Knowledge Management)**
+    * 通过 P.A.R.A + JD 体系管理长期知识。
+    * 记录历史、哲学与地缘政治的深度思考。
 
-Notes frequently use dated filenames (e.g., `_2026年1月`) to maintain temporal context. The inclusion of `07_MOC` indicates a growing use of Maps of Content for navigation (e.g., OCBC), while folders like `97_OpenCode/Skills` and `skills/web-research` contain executable logic or documentation for AI agents. Physical environment setups (MacBook Air, Localhost) are managed in `08_Personal`.
+---
 
-## Key Topics
+## 2. 文件夹结构 (Structure)
 
-- **AI & Agents**: OpenCode ecosystem, PersonaPlex (iOS/Local/Real-time Voice), Agent Skills (Financial Analysis, YouTube Clipper, Web Research), Gemini 3 Flash, and Anthropic/Vertex AI SDK integration.
-- **Cloud & Infrastructure**: Hybrid cloud deployment (**OpenClaw**), Google Cloud Platform (GCP), Cloudflare, and NVIDIA Data Center GPU architecture (H100/B200 era).
-- **Software Engineering**: Discord Bot Architecture (Heimdall), Python tooling (uv/uvx), WebSockets, FastAPI, and local RAG systems for investment research.
-- **Investment & Finance**: FY2026 Earnings (Microsoft, Tesla, Meta, Blackberry) and cross-border financial logistics (OCBC, Stripe/PayPal, CMBC Visa).
-- **Geopolitics & Investigation**: US-China tech policy, Keyu Jin analysis, and the 2026 investigation into Myanmar fraud syndicates' migration to Dubai ("The Great Migration") using Agentic AI.
-- **History & Philosophy**: Historical analysis (Liu Zhongjing, Qin Hui) and personal essays recorded in the "思想随笔" collection.
+本工作区采用 **P.A.R.A.** (Projects, Areas, Resources, Archives) 与 **Johnny Decimal** (JD) 混合编号体系：
 
-## User Preferences
+### 📥 输入与处理
 
-Ray is a bilingual user (English/Chinese) who values high technical precision and structured data. The writing style is professional and analytical, often taking the form of "Research Reports," "Best Practices," "Architecture Deep Dives," or "Installation Guides."
+* **00_Inbox**: 收集箱。包含 `00_RSS_News` (订阅新闻)、待处理的灵感碎片。
 
-There is a strong preference for actionable engineering advice (e.g., "How to configure X", "Architecture for Y") over theoretical discussions. Ray prefers notes that are explicitly dated to maintain context (specifically in the 2026 timeline). When assisting, adopt a professional, engineering-focused tone and be prepared to process information that mixes English technical terminology with Chinese analysis.
+### 🚀 核心领域
 
-## Custom Instructions
+* **01_Research**: 通用课题研究与学术笔记。
+* **02_Ideas**: 创新点子、写作灵感与随机想法。
+* **03_Productions**: 已产出的作品。包括文章、视频脚本、开源项目文档。
+* **04_Investments**: **[核心]** 投资研究。财报分析、宏观策略、个股研报。
+* **05_Technology**: **[核心]** 技术笔记。涵盖 Agents, Cloudflare, DevOps 等技术栈。
+* **07_Investigation**: 深度调查报告。针对特定事件或主题的尽职调查（如 AI 泡沫研究）。
 
-- **Temporal Awareness**: The current context is early February 2026. Pay close attention to file suffixes like `_2026年1月`. Treat information from 2025 as historical context and 2026 data as current operational status.
-- **Bilingual Context**: Seamlessly handle both English technical terms and Chinese analysis. Respond in Chinese unless specifically requested otherwise.
-- **Agent Skills Handling**: The folders `97_OpenCode/Skills`, `04_Investments/skills`, and `skills/web-research` contain functional code or instructions for agents. Treat these as executable logic or reference implementations rather than standard prose notes.
-- **Investment & Tech Focus**: When summarizing, prioritize "Actionable Insights," "Architecture Decisions," and "Logistical Solutions" (e.g., specific payment channels or cloud configurations).
-- **Project Specifics**: When discussing AI deployment, refer to the **OpenClaw** (hybrid cloud/Canvas A2UI) and **PersonaPlex** (iOS/local RAG) contexts found in the vault for consistency.
-- **Investigation Update (2026/02)**: Note the major shift of Myanmar fraud syndicates to **Dubai** ("The Great Migration") and their use of **Agentic AI** (WormGPT) and **Starlink** infrastructure.
+### ⚙️ 系统与支持
 
-# 2026 AI Ecosystem Update
-- **Claude Code**: Anthropic's CLI-first tool for "Quality & Logic" and SaaS integration. Uses MCP Apps for interactive UIs.
-- **Google Antigravity**: Google's AI-native IDE for "Speed & Depth" and local "Verification Loops".
-- **MCP (Model Context Protocol)**: The shared standard for tools/skills.
-- **OpenCode Strategy**: The `97_OpenCode` folder serves as a shared skill repository for both platforms.
-- **Hybrid Workflow**: Use Antigravity for building/coding, Claude Code for review/comms/docs.
+* **06_Accounts**: 账户管理、财务记录与订阅服务。
+* **08_Personal**: 个人日记与生活记录。
+* **10_Explore**: 探索性项目与前沿趋势追踪。
+* **11_MOC (Map of Content)**: 知识索引图谱，用于快速导航。
+* **99_Archives**: 归档。已完成项目或历史资料。
 
-- **Tool Ecosystem (2026)**: Established "Antigravity" (Google, IDE/Local/Factory) and "Claude Code" (Anthropic, CLI/SaaS/Manager) as the dual pillars of the development workflow.
-- **Best Practices**: "Verification Loop" is key for Antigravity. "MCP Apps" are key for Claude Code.
-- **Hybrid Workflow**: Use Antigravity for building/testing (The Hands) and Claude Code for architecture/comms (The Brain).
-- **Tech Stack**: Flutter is the "Golden Path" for Antigravity due to strong typing and tooling; React Native requires Expo and careful rule management.
+---
+
+## 3. 关键原则 (Key Principles)
+
+### 双语原则 (Bilingualism)
+
+* **中文 (Chinese)**: 用于综合叙述、逻辑推演、策略总结与定性分析。
+* **英文 (English)**: 严格用于专业术语、代码实现、API 文档与财务指标 (Revenue, YoY, CAGR)。这意味着在同一文档中可能会出现中英文混排，旨在保持技术与概念的精准性。
+
+### 事实驱动 (Fact-Driven)
+
+* 任何定性判断（如“增长强劲”）必须辅以定量数据支撑（如“+35.9% YoY”）。
+* 投资分析强调逻辑严密性与数据交叉验证 (SEC Filings)。
+
+---
+
+## 4. 给 AI Agent 的指引 (For AI Agents)
+
+* **上下文核心**: 请始终参考根目录下的 **`GEMINI.md`**，它是本工作区的“宪法”与上下文大脑。
+* **风格要求**:
+  * 写作风格需专业、理性、客观。
+  * 强制使用 **Mermaid.js** 进行数据可视化，并遵循 "Healing Dream" 配色风格。
+  * 保持 `YYYY-MM-DD` 的时间敏感度，区分历史背景与当前现状。
+
+---
+
+> *Updated: 2026-02*

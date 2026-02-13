@@ -14,17 +14,17 @@
 
 文件夹结构遵循 **P.A.R.A.** (Projects, Areas, Resources, Archives) 与 **JD 体系** (Johnny Decimal) 的混合变体，强调行动导向与领域深度的平衡：
 
-* **00_Inbox (收集箱)**: 稍后读、临时笔记、未分类的原始素材。
+* **00_Inbox (收集箱)**: `00_News_Brief`, `00_RSS_News` 等稍后读、临时笔记与原始素材。
 * **01_Research (研究)**: 通用课题研究、学术论文笔记、待消化的深度内容。
 * **02_Ideas (灵感)**: 创新点子、写作灵感、随机的想法碎片。
-* **03_Productions (产出)**: 已发布的文章、视频脚本、公开项目文档 (如 MarkdownToStat, SimpleRSS)。
-* **04_Investments (投资)**: **[核心区域]** 个股深度报告（如 TSM, NVDA）、财报分析、投资策略、观察列表。
-* **05_Technology (技术)**: 编程语言、框架、AI 模型、技术教程与笔记。
+* **03_Productions (产出)**: 已发布的文章、视频脚本、公开项目文档。
+* **04_Investments (投资)**: **[核心区域]** 个股深度报告（如 NVDA, TSM）、财报分析、宏观策略 (Macro) 与关注列表 (Company Watchlist)。
+* **05_Technology (技术)**: 编程语言、框架 (Agents, Cloudflare)、技术教程与工具笔记。
 * **06_Accounts (账户)**: 个人事务、财务记录、订阅管理。
-* **07_Investigation (调查)**: 专项调查报告、深度尽职调查与背景研究 (如 AI 泡沫, China Export)。
+* **07_Investigation (调查)**: 专项调查报告、深度尽职调查与背景研究。
 * **08_Personal (个人)**: 个人日记、生活记录、隐私信息。
-* **09_MOC (地图)**: Map of Content，知识索引页与导航大纲。
-* **11_Explore (探索)**: 新领域探索、实验性项目、前沿趋势追踪 (如 Person, Study)。
+* **10_Explore (探索)**: 新领域探索、实验性项目 (如 Study)、前沿趋势追踪。
+* **11_MOC (地图)**: Map of Content，知识索引页与导航大纲。
 * **99_Archives (归档)**: 已完成的项目、过时的资料、历史快照。
 
 *以下文件夹不作为主要分类，但为系统重要组成部分：*
