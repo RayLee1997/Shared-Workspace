@@ -75,4 +75,27 @@
 
 ---
 
+## 5. MCP 配置与 API 密钥 (MCP Configuration)
+
+本工作区使用 **MCP (Model Context Protocol)** 扩展 AI 能力。核心配置文件位于：
+`05_Technology/Agents/mcp/mcp_config.json`
+
+### ⚠️ 安全警告 (Security Warning)
+
+该配置文件目前**未被 Git 忽略**。为防止密钥泄漏，**请勿**将真实的 API Key 直接提交到版本控制系统中。建议使用环境变量或本地 `.env` 文件管理。
+
+### 🔑 必需的 API 密钥 (Required Keys)
+
+在使用相关 Agent 功能前，请确保在配置文件中填入以下密钥：
+
+| 服务名称 (Server) | 环境变量 (Env Var) | 用途 | 获取方式 |
+| :--- | :--- | :--- | :--- |
+| **brave-search** | `BRAVE_API_KEY` | 联网搜索实时的网页、新闻与图片 | [Brave Search API](https://api.search.brave.com/) |
+| **edgartools** | `EDGAR_IDENTITY` | 访问 SEC EDGAR 下载财报 (格式: `Name email@domain.com`) | [SEC User Agent](https://www.sec.gov/os/accessing-edgar-data) |
+| **fred-mcp-server** | `FRED_API_KEY` | 查询美联储 (FRED) 宏观经济数据 | [FRED API Key](https://fred.stlouisfed.org/docs/api/api_key.html) |
+
+*注：`yfinance` 不需要 API Key。*
+
+---
+
 > *Updated: 2026-02*
